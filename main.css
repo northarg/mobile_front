@@ -1,4 +1,10 @@
 
+body {
+    height: 800px;
+    width: 360px;
+    margin: 0px;
+}
+
 .name {
     position: absolute;
     width: 242px;
@@ -25,14 +31,65 @@
     width: 320px;
     height: 480px;
     background: #FFFFFF;
-    border-radius: 15px 15px 50px 50px;
-    transform: rotate(-179.97deg);
+    border-radius: 50px 50px 15px 15px;
 }
 
 .background {
+    left: 20px;
+    top: 20px;
     background: #A42FC1;
     position: absolute;
     width: 320px;
     height: 760px;
     border-radius: 15px;
+}
+
+.inputname {
+    position: relative;
+    width: 190px;
+    height: 45px;
+    top: 100px;
+    left: 65px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;    
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(164, 47, 193, 1);
+    box-shadow: 0px 0px 1px 0px rgba(189, 5, 240, 0.85);
+    box-shadow: 0px 0px 1px 0px rgba(189, 5, 240, 0.5);
+    box-shadow: 0px 0px 1px 0px rgba(189, 5, 240, 0.15);
+    box-shadow: 0px 0px 1px 0px rgba(189, 5, 240, 0.02);
+}
+
+.emogi_imgsrc {
+    position: relative;
+    max-width: 220px;
+    max-height: 220px;
+    top: 115px;
+    left: 55px;
+}
+
+.emogi_imgsrc img {
+    position: relative;
+    padding: 6px;
+}
+
+.button {
+    padding: 0px;
+    position: relative;
+    width: 120px;
+    height: 30px;
+    top: 145px;
+    left: 100px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px;
+    opacity: 0px;
+    border-radius: 10px;    
+}
+
+.button:hover {
+    background-color: #FFFFFF;
+    color: #A42FC1;
 }
